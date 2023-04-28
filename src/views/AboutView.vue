@@ -1,15 +1,14 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="page-about">
+    <h1>About page</h1>
   </div>
 </template>
 
 <style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+.page-about {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 24px;
 }
 </style>
